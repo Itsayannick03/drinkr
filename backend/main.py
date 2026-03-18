@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from database import SQLiteDatabase
+from orm.database import SQLiteDatabase
 from users.user import User
 
 app = FastAPI()
